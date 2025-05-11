@@ -1,0 +1,15 @@
+export const buttonStyle = (color: string) => ({
+  padding: '12px 20px',
+  backgroundColor: color,
+  color: 'white',
+  borderRadius: '30px',
+  border: 'none',
+  cursor: 'pointer',
+  transition: 'background-color 0.3s ease, transform 0.2s ease-in-out',
+  fontWeight: 'bold',
+  textTransform: 'uppercase' as const,
+  boxShadow: '0px 4px 12px rgba(0, 0, 0, 0.3)',
+  outline: 'none',
+  fontSize: '14px',
+  letterSpacing: '1px',
+});
